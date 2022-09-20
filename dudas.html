@@ -16,26 +16,26 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Programación</a>
+        <a class="navbar-brand" href="index.html">Programación</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item" id="Home">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
             <li class="nav-item" id="Block">
               <a class="nav-link" href="Block.html">Block</a>
             </li>
             <li class="nav-item dropdown">
             </li>
             <li class="nav-item" id="contacto">
-              <a class="nav-link" href="contacto.html">Imagenes</a>
+              <a class="nav-link" href="imagenes.html">Imagenes</a>
             </li>
             <li class="nav-item" id="Dudas">
-              <a class="nav-link" href="dudas.html">Dinos tu DuDa</a>
+              <a class="nav-link" href="dudas.html">Foro</a>
+            </li>
+            <li class="nav-item" id="Otro">
+              <a class="nav-link" href="ideas.html">Otro</a>
             </li>
           </ul>
         </div>
@@ -50,23 +50,32 @@
           <h1>DUDAS</h1>
           <div class="mb-3">
             <label class="form-label" for="email">email</label>
-            <input type="email" placeholder="Ingrese email" class="form-control" name="email" id="email" required>
+            <input type="email" placeholder="Ingrese email" class="form-control" name="Nemail" id="email" required>
           </div>
           <div class="mb-3">
+<<<<<<< HEAD
             <label class="form-label" for="fecha">Fecha</label>
             <input type="date" class="form-control" name="fecha" id="fecha" required>
           </div>
           <div class="mb-3">
             <label class="form-label" for="titulo">Título</label>
             <input type="text" placeholder="Ingrese título" class="form-control" name="titulo" id="titulo" required>
+=======
+            <label class="form-label" for="fecha"></label>
+            <input type="hidden" class="form-control" name="Nfecha" id="fecha" value="" readonly  required >
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="titulo">Título</label>
+            <input type="" placeholder="Ingrese título" class="form-control" name="Ntitulo" id="titulo" required>
+>>>>>>> 1a45167f8a6ba2ced03c9bc8c3e9991ff9d667bf
           </div>
           <div class="mb-3">
             <label for="descripcion" class="form-label">Descripción</label>
-            <textarea class="form-control" name="descripcion" id="descripcion" rows="5" placeholder="Ingrese descripción" required></textarea>
+            <textarea class="form-control" name="Ndescripcion" id="descripcion" rows="5" placeholder="Ingrese descripción" required></textarea>
           </div>
           <div class="mb-3">
             <label class="form-label" for="genero">Tipo de Duda</label>
-            <select name="genero" id="genero" class="form-select" required>
+            <select name="Ngenero" id="genero" class="form-select" required>
                 <option value="">Seleccione</option>
                 <option value="Logica Programacion">Logica Programacion</option>
                 <option value="Javascript">Javascript</option>
